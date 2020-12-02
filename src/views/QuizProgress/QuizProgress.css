@@ -1,0 +1,19 @@
+.quizProgressContainer {
+    height: 15px;
+    width: 100%;
+    border-radius: 4px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5fc4b5+0,30625b+100 */
+    background: var(--skeleton, #eaeaea);
+    margin: 3rem 0;
+}
+.quizProgress {
+    width: 0%;
+    height: inherit;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5fc4b5+0,30625b+100 */
+    background: #5fc4b5; /* Old browsers */
+    background: -moz-linear-gradient(left,  #5fc4b5 0%, #30625b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #5fc4b5 0%,#30625b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #5fc4b5 0%,#30625b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5fc4b5', endColorstr='#30625b',GradientType=1 ); /* IE6-9 */
+    transition: all ease-in-out 0.25s;
+}

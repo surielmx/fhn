@@ -1,0 +1,35 @@
+.controlButtons {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    
+}
+.prevButton[type=button]:disabled {
+    background-color: var(--secondary-disabled, #D2D2D2);
+    color: var(--primary-disabled, #9fa8a7);
+}
+.nextButton[type=button]:disabled {
+    background-color: var(--primary-disabled, #BBE6DF);
+    color: var(--secondary-disabled, #D2D2D2);
+}
+
+.prevButton,
+.nextButton{
+    border-radius: 0;
+    padding: 0.25rem 0.5rem;
+}
+.prevButton {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: var(--secondary, #1E1E1E);
+    color: var(--primary, #5FC4B5);
+}
+.nextButton {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--primary, #5FC4B5);
+    color: var(--secondary, #1E1E1E);
+}
+.iconButton {
+    display: block;
+}
